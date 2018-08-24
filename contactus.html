@@ -1,0 +1,126 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Source Code</title>
+  <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+  <div id="parent" class="off-canvas-wrapper" data-smooth-scroll>
+    <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+      <ul class="off-canvas-list">
+        <li>
+          <label class="first">The Source Code</label>
+        </li>
+        <li>
+          <a href="">Link 1</a>
+        </li>
+        <li>
+          <a href="">Link 2</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="off-canvas-content" data-off-canvas-content>
+      <div class="title-bar hide-for-medium">
+        <div class="title-bar-left">
+          <button type="button" data-open="offCanvas" aria-expanded="false" aria-controls="offCanvas">
+            <span class="title-bar-title-text">The Source Code</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="top-bar show-for-medium">
+        <div class="top-bar-left">
+          <ul class="dropdown menu" data-dropdown-menu>
+            <li class="menu-text">The Source Code</li>
+          </ul>
+        </div>
+        <div class="top-bar-right">
+          <ul class="menu">
+            <li>
+              <a href="#0">My Menu 1</a>
+            </li>
+            <li>
+              <a href="#0">My Menu 2</a>
+            </li>
+            <li>
+              <a href="#0">My Menu 3</a>
+            </li>
+            <li>
+              <a href="contactus.html" class="button">Contactenos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <header class="code-header">
+        <div class="small-8 medium-5 medium-offset-1 large-offset-2 end columns">
+          <h1 class="hero-main-header">The Source Code</h1>
+          <h3>Un mundo de posibilidades</h3>
+        </div>
+      </header>
+
+      <article id="content" class="page-content">
+        <div class="row">
+          <div class="medium-9 medium-centered columns">
+
+            <form>
+              <div class="grid-container">
+                <div class="grid-x grid-padding-x">
+
+                  <div class="medium-6 medium-centered cell medium-offset-1">
+                    Gracias por su interes, por favor diligencie la siguiente informacion, y en el menor tiempo posible nos comunicaremos
+                    con usted.
+                  </div>
+                  <br/>
+                  <!-- bad practice detected! -->
+                  <div class="medium-6 medium-centered cell">
+                    <label>Nombre
+                      <input type="text" placeholder="Jhon Doe">
+                    </label>
+                  </div>
+                  <div class="medium-6 medium-centered cell">
+                    <label>Email
+                      <input type="text" placeholder="jhondoe@gmail.com">
+                    </label>
+                  </div>
+                  <div class="medium-6 medium-centered cell">
+                    <label>Comentario
+                      <textarea> </textarea>
+                    </label>
+                  </div>
+                  <div class="medium-6 medium-centered cell">
+                    <button type="button" class="success button centered">Enviar</button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/what-input/dist/what-input.js"></script>
+  <script src="bower_components/foundation-sites/dist/js/foundation.js"></script>
+  <script src="js/app.js"></script>
+
+  <script type="text/javascript">
+    var elem = new Foundation.SmoothScroll($("#parent"));
+
+    Foundation.SmoothScroll.scrollToLoc("#content", {
+      animationDuration: 1000,
+      threshold: 50,
+      offset: 100
+    });
+  </script>
+</body>
+
+</html>

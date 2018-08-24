@@ -1,1 +1,244 @@
-Hello World
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Source Code</title>
+  <link rel="stylesheet" href="css/app.css">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+  <link rel='stylesheet' type='text/css' href='bower_components/notifIt/notifIt/css/notifIt.min.css'>
+  <script type="text/javascript" src="lib/modernizr.custom.79639.js"></script>
+</head>
+
+<body>
+  <div class="off-canvas-wrapper">
+    <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+      <ul class="off-canvas-list">
+        <li>
+          <label class="first">The Source Code</label>
+        </li>
+        <li>
+          <a href="">Link 1</a>
+        </li>
+        <li>
+          <a href="">Link 2</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="off-canvas-content" data-off-canvas-content>
+      <div class="title-bar hide-for-medium">
+        <div class="title-bar-left">
+          <button type="button" data-open="offCanvas" aria-expanded="false" aria-controls="offCanvas">
+            <span class="title-bar-title-text">The Source Code</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="top-bar show-for-medium">
+        <div class="top-bar-left">
+          <ul class="dropdown menu" data-dropdown-menu>
+            <li class="menu-text">The Source Code</li>
+          </ul>
+        </div>
+        <div class="top-bar-right">
+          <ul class="menu">
+            <li>
+              <button type="button" class="button" onclick="goContactUs()">Contáctanos</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <header class="parallax section1 code-header">
+        <div class="video-container">
+
+          <video style="width:100%" id="hero-player" autoplay="" muted="" loop=""
+          onloadedmetadata="this.muted = true" src="videos/1.mp4"
+            type="video/mp4"></video>
+        </div>
+
+        <div class="small-8 medium-5 medium-offset-1 large-offset-2 end columns">
+          <h1>The Source Code</h1>
+          <!-- <h3></h3> -->
+        </div>
+      </header>
+
+      <div class="row">
+        <div class="medium-9 medium-centered columns section-content">
+          <p>
+            Somos un grupo de jóvenes entusiastas, apasionados por la programación y la tecnología. Contamos con la mejor disposición
+            para asumir nuevos retos y poner a su servicio todo nuestro talento.
+            <br>
+            <br> En The Source Code, pensamos siempre en la mejor manera de construir una solución de software, desde su punto
+            más básico hasta el más complejo.
+          </p>
+        </div>
+        <div class="medium-9 medium-centered columns section-content">
+          <div class="wwd-image light-bulb small-centered medium-centered large-centered"></div>
+        </div>
+      </div>
+
+      <div class="parallax section2 all-center">
+        <p>Qué hacemos</p>
+      </div>
+
+      <div class="row">
+        <div class="medium-12 large-4 large-offset-1 columns section-content text-center">
+          <div class="wwd-image mobile-app"></div>
+          <p>Desarrollo de aplicaciones móviles para IOS y Android</p>
+        </div>
+        <div class="medium-12 large-4 large-offset-2 end columns section-content text-center">
+          <div class="wwd-image web-app"></div>
+          <p>Desarrollo de aplicaciones web</p>
+        </div>
+      </div>
+
+      <div class="parallax section3 all-center">
+        <p>Tecnologia</p>
+      </div>
+
+      <div class="row">
+        <div class="medium-9 medium-centered columns section-content">
+          El mundo evoluciona constantemente y en The Source Code estamos comprometidos con el uso de las mejores practicas de desarrollo
+          y tecnologías de punta para ofrecerle al usuario la mejor experiencia posible
+        </div>
+      </div>
+
+      <div class="row">
+        <div id="sb-container" class="sb-container">
+          <div>
+              <span class="tech-image python"></span>
+            <h4>
+              <span>Python</span>
+            </h4>
+          </div>
+          <div>
+            <span class="tech-image react"></span>
+            <h4>
+              <span>React JS</span>
+            </h4>
+          </div>
+          <div>
+            <span class="tech-image angular"></span>
+            <h4>
+              <span>Angular</span>
+            </h4>
+          </div>
+          <div>
+            <span class="tech-image node"></span>
+            <h4>
+              <span>Node JS</span>
+            </h4>
+          </div>
+          <div>
+            <span class="tech-image docker"></span>
+            <h4>
+              <span>Docker</span>
+            </h4>
+          </div>
+          <div>
+            <span class="tech-image aws"></span>
+            <h4>
+              <span>AWS</span>
+            </h4>
+          </div>
+          <div>
+            <span class="tech-image sql"></span>
+            <h4>
+              <span>SQL</span>
+            </h4>
+          </div>
+          <div>
+            <span class="tech-image mongo"></span>
+            <h4>
+              <span>MongoDB</span>
+            </h4>
+          </div>
+          <div>
+            <span class="tech-image swiftl"></span>
+            <h4>
+              <span>Swift</span>
+            </h4>
+          </div>
+          <div>
+            <span class="tech-image react"></span>
+            <h4>
+              <span>React Native</span>
+            </h4>
+          </div>
+          <div>
+            <span class="tech-image android"></span>
+            <h4>
+              <span>Andriod</span>
+            </h4>
+          </div>
+          <div>
+            <h4>
+              <span>Tecnologías</span>
+            </h4>
+            <span class="sb-toggle">Ver</span>
+            <h5>
+              <span>We &hearts; code</span>
+            </h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="row"></div>
+
+      <div class="parallax section4 all-center">
+        <div class="small-11 medium-7 large-5 small-centered medium-centered large-centered">
+          <form id="contact-us" data-abide="ajax">
+            <div class="grid-container">
+              <div class="grid-x grid-padding-x">
+
+                <div class="cell center">
+                  Gracias por su interes, por favor diligencie la siguiente informacion, y en el menor tiempo posible nos comunicaremos con
+                  usted.
+                </div>
+                <br/>
+                <div class="input-wrapper">
+                  <input id="contactName" type="text" placeholder="Nombre" required>
+                </div>
+                <div class="input-wrapper">
+                  <input id="contactEmail" type="email" placeholder="Email" required>
+                </div>
+                <div>
+                  <textarea id="contactComments" rows="5" placeholder="Comentarios"></textarea>
+                </div>
+                <div>
+                  <button class="button" type="submit" class="success button centered">Enviar</button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <footer>
+        <div>Icons made by
+          <a href="http://www.freepik.com" title="Freepik">Freepik</a> from
+          <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by
+          <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+        </div>
+      </footer>
+
+      <a href="javascript:" id="return-to-top">
+        <i class="icon-chevron-up"></i>
+      </a>
+
+    </div>
+  </div>
+
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src='bower_components/notifIt/notifIt/js/notifIt.min.js'></script>
+  <script src="bower_components/what-input/dist/what-input.min.js"></script>
+  <script src="bower_components/foundation-sites/dist/js/foundation.min.js"></script>
+  <script src="js/swatchbook.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
