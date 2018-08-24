@@ -1,0 +1,29 @@
+{
+  "name": "notifIt",
+  "homepage": "https://github.com/naoxink",
+  "authors": [
+    "naoxink"
+  ],
+  "main": [
+    "notifIt/js/notifIt.js",
+    "notifIt/css/notifIt.css"
+  ],
+  "description": "Simple colorful animated notifications with JQuery",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "101a987131",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "101a987131129aaca24bf3a1950710d2f65bbdf7"
+  },
+  "_source": "https://github.com/naoxink/notifIt.git",
+  "_target": "*",
+  "_originalSource": "notifit"
+}
