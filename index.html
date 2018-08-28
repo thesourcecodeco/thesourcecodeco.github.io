@@ -55,8 +55,7 @@
       <header class="parallax section1 code-header">
         <div class="video-container">
 
-          <video style="width:100%" id="hero-player" autoplay="" muted="" loop=""
-          onloadedmetadata="this.muted = true" src="videos/1.mp4"
+          <video style="width:100%" id="hero-player" autoplay="" muted="" loop="" onloadedmetadata="this.muted = true" src="videos/1.mp4"
             type="video/mp4"></video>
         </div>
 
@@ -72,8 +71,8 @@
             Somos un grupo de jóvenes entusiastas, apasionados por la programación y la tecnología. Contamos con la mejor disposición
             para asumir nuevos retos y poner a su servicio todo nuestro talento.
             <br>
-            <br> En The Source Code, pensamos siempre en la mejor manera de construir una solución de software, desde su punto
-            más básico hasta el más complejo.
+            <br> En The Source Code, pensamos siempre en la mejor manera de construir una solución de software, desde su
+            punto más básico hasta el más complejo.
           </p>
         </div>
         <div class="medium-9 medium-centered columns section-content">
@@ -110,7 +109,7 @@
       <div class="row">
         <div id="sb-container" class="sb-container">
           <div>
-              <span class="tech-image python"></span>
+            <span class="tech-image python"></span>
             <h4>
               <span>Python</span>
             </h4>
@@ -191,29 +190,16 @@
 
       <div class="parallax section4 all-center">
         <div class="small-11 medium-7 large-5 small-centered medium-centered large-centered">
-          <form id="contact-us" data-abide="ajax">
-            <div class="grid-container">
-              <div class="grid-x grid-padding-x">
 
-                <div class="cell center">
-                  Gracias por su interes, por favor diligencie la siguiente informacion, y en el menor tiempo posible nos comunicaremos con
-                  usted.
-                </div>
-                <br/>
-                <div class="input-wrapper">
-                  <input id="contactName" type="text" placeholder="Nombre" required>
-                </div>
-                <div class="input-wrapper">
-                  <input id="contactEmail" type="email" placeholder="Email" required>
-                </div>
-                <div>
-                  <textarea id="contactComments" rows="5" placeholder="Comentarios"></textarea>
-                </div>
-                <div>
-                  <button class="button" type="submit" class="success button centered">Enviar</button>
-                </div>
-              </div>
+          <form method="POST" action="https://formspree.io/thesourcecodeco@outlook.com">
+            <div class="cell center">
+              Gracias por su interes, por favor diligencie los siguientes datos, y en el menor tiempo posible nos comunicaremos con usted.
             </div>
+            <br/>
+
+            <input name="email" placeholder="Correo electronico" type="email">
+            <textarea name="message" placeholder="Mensaje"></textarea>
+            <button type="submit">Send</button>
           </form>
         </div>
       </div>
